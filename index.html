@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+
+  <title>Expenses chart component</title>
+
+</head>
+<body>
+  <div class="#app">
+    <div class="main-container">
+      <div class="my-balance-div">
+        <div class="money-div">
+          <p>My balance</p>
+          <p class="balance-amount">$921.48</p>
+        </div>
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="statistics-div">
+        <h2>Spending - Last 7 days</h2>
+        <div class="stat-flexbox">
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-mon">
+              <p class="mon-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat mon ind-0"></div>
+            <div class="day-day">
+              <p>mon</p>
+            </div>
+          </div>
+
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-tue">
+              <p class="tue-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat tue ind-1"></div>
+            <div class="day-day">
+              <p>tue</p>
+            </div>
+          </div>
+
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-wed">
+              <p class="wed-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat wed ind-2"></div>
+            <div class="day-day">
+              <p>wed</p>
+            </div>
+          </div>
+
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-thu">
+              <p class="thu-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat thu ind-3"></div>
+            <div class="day-day">
+              <p>thu</p>
+            </div>
+          </div>
+
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-fri">
+              <p class="fri-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat fri ind-4"></div>
+            <div class="day-day">
+              <p>fri</p>
+            </div>
+          </div>
+          
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-sat">
+              <p class="sat-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat sat ind-5"></div>
+            <div class="day-day">
+              <p>sat</p>
+            </div>
+          </div>
+
+          <div class="stat-one">
+            <div hidden="true" class="hidden-amount-hover hover-sun">
+              <p class="sun-money">$ 52.36</p>
+            </div>
+            <div class="amount-stat sun ind-6"></div>
+            <div class="day-day">
+              <p>sun</p>
+            </div>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="final-stat">
+          <div class="left-side">
+            <p>Total this month</p>
+            <p class="total-this-month">$478.33</p>
+          </div>
+
+          <div class="right-side">
+            <p class="plus-percent">+2.4%</p>
+            <p>from last month</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
